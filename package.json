@@ -2,9 +2,9 @@
   "name": "@lephenix47/color-converter",
   "version": "1.0.0",
   "description": "description",
-  "main": " lib/es6/index.js",
-  "module": " lib/commonjs/index.js",
-  "types": " lib/es6/index.d.ts",
+  "main": "lib/es6/index.js",
+  "module": "lib/commonjs/index.js",
+  "types": "lib/es6/index.d.ts",
   "scripts": {
     "ts-cmd": "rmdir /s /q  lib && tsc && tsc --build tsconfig.es5.json",
     "ts-bash": "rm -rf ./ lib && tsc && tsc --build tsconfig.es5.json",
